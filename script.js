@@ -16,7 +16,9 @@ function compute()
 
     result=document.getElementById('result'); //Result span
     let curryear=2021+Number(years);
-
+    
+    result.classList.add('animate');
+    
     //Append result
     result.innerHTML=`If you deposit <mark>${principal}</mark>, <br>
     at an interest rate of <mark>${rate}%.</mark> <br>
