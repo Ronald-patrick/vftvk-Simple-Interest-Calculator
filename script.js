@@ -28,5 +28,5 @@ function compute()
     const rangespan=document.getElementById('slider');
     const slider=document.getElementById("rate");
     slider.addEventListener('input',()=>{
-        rangespan.innerHTML=slider.value+'%';
+        rangespan.innerHTML=slider.value+"%";
     });
